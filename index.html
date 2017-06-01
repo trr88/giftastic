@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GIFTastic</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="panel panel-default header1">
+            <div class="panel-body header">
+                <h1>GIF-Tastic!</h1>
+            </div>
+        </div>
+        <div class="row panel panel-default" id="main">
+            <div class="panel-body">
+                <div class="col-md-4">
+                    <h2>Find Your Perfect GIF!</h2>
+                </div>
+            </div>
+            <div id="selections"></div>
+            <div class="row">
+                <div class="col-md-8 gif-panel">
+                    <div class="row">
+                        <div class="gif-title"></div>
+                    </div>
+                    <div class="row">
+                        <div id="gif-view"></div>
+                    </div>
+                </div>
+                <div class="col-md-4" id="form">
+                    <form id="gif-form">
+                        <label for="gif-input">Add a GIF Theme</label>
+                        <input type="text" id="gif-input">
+                        <br>
+                        <input id="add-gif" type="submit" value="Add a GIF Theme">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
